@@ -66,7 +66,7 @@ if (!empty($_POST)) {
 <body>
     <div class="wrapper">
         <header class="header">
-            <a class="title" href="signup.php">Home</a>
+            <a class="title" href="../index.php">Home</a>
         </header>
         <header class="header">
         </header>
