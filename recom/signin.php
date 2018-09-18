@@ -9,8 +9,7 @@ require '../vendor/autoload.php';
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
-require('./recom/dbconnect.php');
-
+require('dbconnect.php');
 
 $errors=array();
 
@@ -35,7 +34,7 @@ if (!empty($_POST)) {
 
 
 
-        header('Location:./recom/recomendation.php');
+        header('Location: recomendation.php');
         exit();
       }else{
 
@@ -58,15 +57,15 @@ if (!empty($_POST)) {
     <meta name="description" content="">
     <meta name="author" content="">
     <title>AVメイカー</title>
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/main.css" rel="stylesheet">
-    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <a class="title" href="../index.php">Home</a>
+            <a class="title" href="signup.php">Home</a>
         </header>
         <header class="header">
         </header>
