@@ -9,7 +9,8 @@ require '../vendor/autoload.php';
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
-require('dbconnect.php');
+require('./recom/dbconnect.php');
+
 
 $errors=array();
 
@@ -34,7 +35,7 @@ if (!empty($_POST)) {
 
 
 
-        header('Location: recomendation.php');
+        header('Location:./recom/recomendation.php');
         exit();
       }else{
 
@@ -57,9 +58,9 @@ if (!empty($_POST)) {
     <meta name="description" content="">
     <meta name="author" content="">
     <title>AVメイカー</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
