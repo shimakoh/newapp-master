@@ -26,13 +26,13 @@ if (!empty($_POST)) {
         $name=$_SESSION['recom']['name'];
         $_SESSION['recom']['pass']=$_POST['password'];
         $password=$_SESSION['recom']['pass'];
-        $sql = 'INSERT INTO users SET username=?,password=?';
+        $sql = 'INSERT INTO users SET username=$1,password=$1';
         $data = array($name,password_hash($password, PASSWORD_DEFAULT));
         // $stmt = $dbh->prepare($sql);
         // $stmt->execute($data);
         $result=pg_query_params($sql,$data);
 
-        $sql='SELECT id FROM users WHERE username=?';
+        $sql='SELECT id FROM users WHERE username=$1';
         $data = array($name);
         // $stmt = $dbh->prepare($sql);
         // $stmt->execute($data);
