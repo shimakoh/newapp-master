@@ -26,7 +26,7 @@ if (!empty($_POST)) {
         $name=$_SESSION['recom']['name'];
         $_SESSION['recom']['pass']=$_POST['password'];
         $password=$_SESSION['recom']['pass'];
-        $sql = 'INSERT INTO users SET username=$1,password=$1';
+        $sql = 'INSERT INTO users SET username=$1,password=$2';
         $data = array($name,password_hash($password, PASSWORD_DEFAULT));
         // $stmt = $dbh->prepare($sql);
         // $stmt->execute($data);
