@@ -18,7 +18,7 @@ if (!empty($_POST)) {
   $password=htmlspecialchars($_POST['password']);
 
   if ($name!=''&& $password!='') {
-    $sql='SELECT * FROM users WHERE username=?';
+    $sql='SELECT * FROM users WHERE username=$1';
     $data=[$name];
     $result=pg_query_params($sql,$data);
     $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
