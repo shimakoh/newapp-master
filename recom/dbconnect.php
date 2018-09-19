@@ -9,9 +9,9 @@
 // $dbh->query('SET NAMES utf8');
 
 $dbh=pg_connect("host=ec2-107-21-233-72.compute-1.amazonaws.com
-  dbname=d4ie600704rlj2
-  user=bzkssfwiizyfbd
-  password=302b20c30e09b7b80aa750ca8c8de6493fa390841971f5554021eda866b6c572");
+  dbname=d8d4vfvq90vt9l
+  user=vtbrdmdmgqyrnf
+  password=0b8a98efa8ce4bdef3e2b194c26f8c63faabcd8f07c35b6879c62dc91ab806ed");
 
 // require '../vendor/autoload.php';
 // \Cloudinary::config(array(
