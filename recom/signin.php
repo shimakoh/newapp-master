@@ -85,7 +85,7 @@ if (!empty($_POST)) {
                         <p class="text-danger">サインインに失敗しました!</p>
                         <?php } ?>
                         <?php if(isset($errors['signin']) && $errors['signin']=='failed2') { ?>
-                        <p class="text-danger">サインインに失敗しました!</p>
+                        <p class="text-danger">サインインに失敗しました!!!!</p>
                         <?php } ?>
                     </h3>
                     <h3>
