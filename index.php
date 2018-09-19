@@ -26,17 +26,17 @@ if (!empty($_POST)) {
         $name=$_SESSION['recom']['name'];
         $_SESSION['recom']['pass']=$_POST['password'];
         $password=$_SESSION['recom']['pass'];
-        $sql = 'INSERT INTO users SET username=$1,password=$1';
-        $data = array($name,password_hash($password, PASSWORD_DEFAULT));
+        $sql = 'INSERT INTO users SET username='$name',password='password_hash($password, PASSWORD_DEFAULT)'';
+        // $data = array($name,password_hash($password, PASSWORD_DEFAULT));
         // $stmt = $dbh->prepare($sql);
         // $stmt->execute($data);
-        $result=pg_query_params($sql,$data);
+        $result=pg_query_params($sql);
 
-        $sql='SELECT id FROM users WHERE username=$1';
+        $sql='SELECT id FROM users WHERE username='$name'';
         $data = array($name);
         // $stmt = $dbh->prepare($sql);
         // $stmt->execute($data);
-        $result=pg_query_params($sql,$data);
+        // $result=pg_query_params($sql,$data);
         // $record = $stmt->fetch(PDO::FETCH_ASSOC);
         $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
         $_SESSION['recom']['id']=$record['id'];
