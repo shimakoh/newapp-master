@@ -23,7 +23,8 @@ if (!empty($_POST)) {
     $result=pg_query_params($sql,$data);
     $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
-$record
+echo $record['username'];
+
       if ($record == false) {
         $errors['signin']='failed';
       }
