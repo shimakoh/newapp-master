@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('./recom/dbconnect.php');
+// require('./recom/dbconnect.php');
 
 require './vendor/autoload.php';
 // \Cloudinary::config(array(
@@ -26,6 +26,11 @@ if (!empty($_POST)) {
         $name=$_SESSION['recom']['name'];
         $_SESSION['recom']['pass']=$_POST['password'];
         $password=$_SESSION['recom']['pass'];
+$dbh=pg_connect("host=ec2-54-83-50-145.compute-1.amazonaws.com
+  dbname=d8d4vfvq90vt9l
+  user=vtbrdmdmgqyrnf
+  password=0b8a98efa8ce4bdef3e2b194c26f8c63faabcd8f07c35b6879c62dc91ab806ed");
+
         $sql = 'INSERT INTO users SET username=$1,password=$2';
         $data = array($name,$password);
         // $data = array($name,password_hash($password, PASSWORD_DEFAULT));
