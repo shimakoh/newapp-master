@@ -13,6 +13,10 @@ $dbh=pg_connect("host=ec2-54-83-50-145.compute-1.amazonaws.com
   user=vtbrdmdmgqyrnf
   password=0b8a98efa8ce4bdef3e2b194c26f8c63faabcd8f07c35b6879c62dc91ab806ed");
 
+if (!$dbh) {
+    print(pg_last_error());
+}
+
 // require '../vendor/autoload.php';
 // \Cloudinary::config(array(
 //     "cloud_name" => "hb2ekbyxa",
