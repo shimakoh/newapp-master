@@ -29,7 +29,7 @@ if (!empty($_POST)) {
       }
 
 
-      if (password_verify($password,$record['password'])) {
+      if ($password=$record['password']) {
         $_SESSION['recom']['id']=$record['id'];
 
 
