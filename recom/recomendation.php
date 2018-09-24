@@ -1,6 +1,6 @@
 <?php
 session_start();
-var_dump($_SESSION['record']['id']);
+var_dump($_SESSION['recom']['id']);
 
 
 require '../vendor/autoload.php';

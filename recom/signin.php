@@ -31,7 +31,7 @@ if (!empty($_POST)) {
 
       if ($password=$record['password']) {
         $_SESSION['recom']['id']=$record['id'];
-
+        $_SESSION['recom']['name']=$record['username'];
 
 
         header('Location: recomendation.php');
