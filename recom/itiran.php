@@ -6,11 +6,11 @@ $number=0;
 $k=1;
 
 require '../vendor/autoload.php';
-\Cloudinary::config(array(
-    "cloud_name" => "hb2ekbyxa",
-    "api_key" => "935614219356682",
-    "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-));
+// \Cloudinary::config(array(
+//     "cloud_name" => "hb2ekbyxa",
+//     "api_key" => "935614219356682",
+//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
+// ));
 
 // $sql='SELECT `i`.`jname`,`u`.`username` FROM `itiran` AS `i` LEFT JOIN `users` AS `u` ON `i`.`user_id`=`u`.`id`';
 // $data=array();
@@ -84,7 +84,6 @@ $suuji=count($j);
                                     </p>
                                     <img src="assets/img/abemi.jpg" width="80%">
                                 </div>
-<?php break; ?>
                 <?php break; ?>
                 <?php }elseif($k==$suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
@@ -231,7 +230,7 @@ $suuji=count($j);
 <?php if($actress['jname']=='小倉ゆず') { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
                     <p>小倉ゆず</p>
-                    <img src="assets/img/yuzu.jpeg" width="80%">
+                    <img src="assets/img/yuzu.gif" width="80%">
                 </div>
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
