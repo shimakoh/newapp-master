@@ -2,11 +2,11 @@
 session_start();
 
 require '../vendor/autoload.php';
-\Cloudinary::config(array(
-    "cloud_name" => "hb2ekbyxa",
-    "api_key" => "935614219356682",
-    "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-));
+// \Cloudinary::config(array(
+//     "cloud_name" => "hb2ekbyxa",
+//     "api_key" => "935614219356682",
+//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
+// ));
 
 $Q1='';
 
@@ -20,7 +20,7 @@ if (isset($_POST['answer_f'])) {
     }elseif ($_POST['answer_f']=='c') {
         $_SESSION['recom']['Qfa']=$_POST['answer_f'];
 
- 
+
 
     header('Location: recomHhow.php');
     excit();
