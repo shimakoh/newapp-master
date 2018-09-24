@@ -58,9 +58,9 @@ $suuji=count($j);
     <meta name="description" content="">
     <meta name="author" content="">
     <title>AVメイカー</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
