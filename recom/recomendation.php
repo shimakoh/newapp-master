@@ -94,15 +94,15 @@ if (!empty($_POST['answer'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <title>AVメイカー</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <a class="title" href="signup.php">Home</a>
+            <a class="title" href="/index.php">Home</a>
             <a class="title" href="itiran.php">嬢一覧</a>
         </header>
         <div class="container">

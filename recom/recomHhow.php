@@ -2,18 +2,18 @@
 session_start();
 
 require '../vendor/autoload.php';
-\Cloudinary::config(array(
-    "cloud_name" => "hb2ekbyxa",
-    "api_key" => "935614219356682",
-    "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-));
+// \Cloudinary::config(array(
+//     "cloud_name" => "hb2ekbyxa",
+//     "api_key" => "935614219356682",
+//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
+// ));
 
 require '../vendor/autoload.php';
-\Cloudinary::config(array(
-    "cloud_name" => "hb2ekbyxa",
-    "api_key" => "935614219356682",
-    "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-));
+// \Cloudinary::config(array(
+//     "cloud_name" => "hb2ekbyxa",
+//     "api_key" => "935614219356682",
+//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
+// ));
 
 
 $Q1='';
@@ -46,9 +46,9 @@ if (isset($_POST['answer_h'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <title>AVメイカー</title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
