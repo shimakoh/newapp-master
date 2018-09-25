@@ -28,7 +28,7 @@ echo  $_SESSION['recom']['name'];
         $_SESSION['recom']['Qwhob']='';
         $_SESSION['recom']['Qsatisfy']='';
         $_SESSION['recom']['Qsatisfya']='';
-       $_SESSION['recom']['Qwho']='';
+        $_SESSION['recom']['Qwho']='';
 
 if (!empty($_POST['answer'])) {
     if ($_POST['answer']=='a' || $_POST['answer']=='b' || $_POST['answer']=='c') {
@@ -49,7 +49,7 @@ if (!empty($_POST['answer'])) {
         $_SESSION['recom']['Qwhob']='';
         $_SESSION['recom']['Qsatisfy']='';
         $_SESSION['recom']['Qsatisfya']='';
-       $_SESSION['recom']['Qwho']='';
+        $_SESSION['recom']['Qwho']='';
 
 
     header('Location: recomface.php');
