@@ -1,5 +1,6 @@
 <?php
 session_start();
+require '../vendor/autoload.php';
 require('dbconnect.php');
 $jname='';
 
@@ -7,7 +8,7 @@ var_dump($_SESSION['recom']['name']);
 var_dump($_SESSION['recom']['id']);
 
 
-require '../vendor/autoload.php';
+
 // \Cloudinary::config(array(
 //     "cloud_name" => "hb2ekbyxa",
 //     "api_key" => "935614219356682",
@@ -75,7 +76,7 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
 }elseif($_SESSION['recom']['Qwhen']=='a'){
     $sql='SELECT name,j_file FROM actresses WHERE id=21';
 }else{
-$sql='SELECT name,j_file FROM actresses WHERE id=20';
+    $sql='SELECT name,j_file FROM actresses WHERE id=20';
 }
 // $stmt = $dbh->prepare($sql);
 // $stmt->execute();
