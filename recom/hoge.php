@@ -1,8 +1,22 @@
 <?php 
 require '../vendor/autoload.php';
+require('dbconnect.php');
+
+
 \Cloudinary::config(array(
-    "cloud_name" => "hb2ekbyxa",
-    "api_key" => "935614219356682",
-    "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
+    "cloud_name" => "hoqcb5m25",
+    "api_key" => "867285216379377",
+    "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
 ));
  ?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<head>
+  <title>test</title>
+</head>
+<body>
+                  <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/abemi.jpg" width="80%">
+</body>
+</html>

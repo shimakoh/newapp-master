@@ -43,7 +43,8 @@ if (!empty($_POST)) {
         $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
         $_SESSION['recom']['id']=$record['id'];
 
-        header('LOCATION:./recom/signin.php');
+        // header('LOCATION:./recom/signin.php');
+        header('LOCATION:./recom/hoge.php');
         // exit();
         pg_close($dbh);
     }
