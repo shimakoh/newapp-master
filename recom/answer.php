@@ -122,7 +122,6 @@ echo '</pre>';
                     <?php echo $record['name']; ?>
                 </h2>
                 <!-- <img src="/assets/img/<?php $record['j_file'] ?>" width="80%"> -->
-                <img src="/assets/img/abemi.jpg ?>" width="80%">
             </h1>
         </div>
     </div>
