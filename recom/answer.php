@@ -55,9 +55,9 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=13';
 }elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=14';
-}elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a'&&
-                           $_SESSION['recom']['Qchara']=='a'){
-    $sql='SELECT name,j_file FROM actresses WHERE id=15';
+// }elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a'&&
+//                            $_SESSION['recom']['Qchara']=='a'){
+//     $sql='SELECT name,j_file FROM actresses WHERE id=15';
 // }elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
 //                              $_SESSION['recom']['Qwhob']=='c' ||
 //                            $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
