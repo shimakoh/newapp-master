@@ -9,11 +9,11 @@ var_dump($_SESSION['recom']['id']);
 
 
 
-// \Cloudinary::config(array(
-//     "cloud_name" => "hb2ekbyxa",
-//     "api_key" => "935614219356682",
-//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-// ));
+\Cloudinary::config(array(
+    "cloud_name" => "hoqcb5m25",
+    "api_key" => "867285216379377",
+    "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
+));
 
 if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=1';
@@ -122,7 +122,8 @@ echo '</pre>';
                 <h2>
                     <?php echo $record['name']; ?>
                 </h2>
-                 <img src="/assets/img/<?php $record['j_file'] ?>" width="80%">
+<!--                  <img src="/assets/img/<?php $record['j_file'] ?>" width="80%"> -->
+                 <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/<?php $record['j_file'] ?>" width="80%">
             </h1>
         </div>
     </div>
