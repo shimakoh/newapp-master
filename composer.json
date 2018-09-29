@@ -4,3 +4,10 @@
     "cloudinary/cloudinary_php": "dev-master"
   }
 }
+
+
+\Cloudinary::config(array(
+    "cloud_name" => "hoqcb5m25",
+    "api_key" => "867285216379377",
+    "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
+));
