@@ -49,15 +49,15 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
                              $_SESSION['recom']['Qwhob']=='c' ||
         $_SESSION['recom']['Qba']=='c' && $_SESSION['recom']['Qchara']=='c'){
     $sql='SELECT name,j_file FROM actresses WHERE id=11';
-// }elseif($_SESSION['recom']['Qc']=='c' && $_SESSION['recom']['Qha']=='b' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=12';
-// }elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=13';
-// }elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=14';
-// }elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a'&&
-//                            $_SESSION['recom']['Qchara']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=15';
+}elseif($_SESSION['recom']['Qc']=='c' && $_SESSION['recom']['Qha']=='b' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=12';
+}elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=13';
+}elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=14';
+}elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a'&&
+                           $_SESSION['recom']['Qchara']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=15';
 // }elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
 //                              $_SESSION['recom']['Qwhob']=='c' ||
 //                            $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
@@ -75,7 +75,7 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
 //     $sql='SELECT name,j_file FROM actresses WHERE id=19';
 // }elseif($_SESSION['recom']['Qwhen']=='a'){
 //     $sql='SELECT name,j_file FROM actresses WHERE id=21';
-// 
+
 }else{
     $sql='SELECT name,j_file FROM actresses WHERE id=20';
 }
