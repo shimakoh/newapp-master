@@ -15,40 +15,40 @@ var_dump($_SESSION['recom']['id']);
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
-// if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=1';
-// }elseif ($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qwho']=='a' &&
-//      $_SESSION['recom']['Qwhen']=='b' ||
-//          $_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qwho']=='a' &&
-//      $_SESSION['recom']['Qwhen']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=2';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=3';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='b' &&
-//                             $_SESSION['recom']['Qwho']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=4';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qha']=='c' &&
-//                             $_SESSION['recom']['Qsatisfy']=='b' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=5';
-// }elseif($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qb']=='b' &&
-//                               $_SESSION['recom']['Qwhen']=='c'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=6';
-// }elseif($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qba']=='c' &&
-//                             $_SESSION['recom']['Qchara']=='b' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=7';
-// }elseif($_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qh']=='a' &&
-//                              $_SESSION['recom']['Qwho']=='a' && $_SESSION['recom']['Qchara']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=8';
-// }elseif($_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qb']=='a' &&
-//                              $_SESSION['recom']['Qwhen']='c'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=9';
-// }elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a' &&
-//                              $_SESSION['recom']['Qwhen']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=10';
-// }elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
-//                              $_SESSION['recom']['Qwhob']=='c' ||
-//         $_SESSION['recom']['Qba']=='c' && $_SESSION['recom']['Qchara']=='c'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=11';
+if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=1';
+}elseif ($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qwho']=='a' &&
+     $_SESSION['recom']['Qwhen']=='b' ||
+         $_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qwho']=='a' &&
+     $_SESSION['recom']['Qwhen']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=2';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=3';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='b' &&
+                            $_SESSION['recom']['Qwho']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=4';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qha']=='c' &&
+                            $_SESSION['recom']['Qsatisfy']=='b' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=5';
+}elseif($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qb']=='b' &&
+                              $_SESSION['recom']['Qwhen']=='c'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=6';
+}elseif($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qba']=='c' &&
+                            $_SESSION['recom']['Qchara']=='b' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=7';
+}elseif($_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qh']=='a' &&
+                             $_SESSION['recom']['Qwho']=='a' && $_SESSION['recom']['Qchara']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=8';
+}elseif($_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qb']=='a' &&
+                             $_SESSION['recom']['Qwhen']='c'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=9';
+}elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a' &&
+                             $_SESSION['recom']['Qwhen']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=10';
+}elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
+                             $_SESSION['recom']['Qwhob']=='c' ||
+        $_SESSION['recom']['Qba']=='c' && $_SESSION['recom']['Qchara']=='c'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=11';
 // }elseif($_SESSION['recom']['Qc']=='c' && $_SESSION['recom']['Qha']=='b' ){
 //     $sql='SELECT name,j_file FROM actresses WHERE id=12';
 // }elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
@@ -75,18 +75,19 @@ var_dump($_SESSION['recom']['id']);
 //     $sql='SELECT name,j_file FROM actresses WHERE id=19';
 // }elseif($_SESSION['recom']['Qwhen']=='a'){
 //     $sql='SELECT name,j_file FROM actresses WHERE id=21';
-// }else{
-//     $sql='SELECT name,j_file FROM actresses WHERE id=20';
-// }
-// // $stmt = $dbh->prepare($sql);
-// // $stmt->execute();
-// $result=pg_query_params($sql);
-// // $record = $stmt->fetch(PDO::FETCH_ASSOC);
+// 
+}else{
+    $sql='SELECT name,j_file FROM actresses WHERE id=20';
+}
+// $stmt = $dbh->prepare($sql);
+// $stmt->execute();
+$result=pg_query_params($sql);
+// $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
+$record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
-// $jname=array();
-// $jname[]=$record;
+$jname=array();
+$jname[]=$record;
 
 echo '<pre>';
 var_dump($record);
@@ -121,8 +122,7 @@ echo '</pre>';
                 <h2>
                     <?php echo $record['name']; ?>
                 </h2>
-<!--                 <img src="/assets/img/<?php $record['j_file'] ?>" width="80%"> -->
-                <img src="/assets/img/abemi.jpg>" width="80%">
+                 <img src="/assets/img/<?php $record['j_file'] ?>" width="80%">
             </h1>
         </div>
     </div>
