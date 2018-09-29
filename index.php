@@ -43,8 +43,7 @@ if (!empty($_POST)) {
         $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
         $_SESSION['recom']['id']=$record['id'];
 
-        // header('LOCATION:./recom/signin.php');
-        header('LOCATION:./recom/hoge.php');
+        header('LOCATION:./recom/signin.php');
         // exit();
         pg_close($dbh);
     }
@@ -98,7 +97,7 @@ if (!empty($_POST)) {
 
                 </div><br>
                 <input type="submit" class="btn btn-primary" value="チャレンジ!!">
-                <a href="./recom/signin.php" style="float: right;padding-top: 6px;" class="text-success">
+                <a href="./recom/hoge.php" style="float: right;padding-top: 6px;" class="text-success">
                     サインイン
                 </a>
             </form>
