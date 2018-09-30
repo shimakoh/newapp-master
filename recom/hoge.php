@@ -11,7 +11,7 @@ require('dbconnect.php');
 
 
 
-$sql='SELECT name FROM users WHERE 1';
+$sql='SELECT name,j_file FROM users WHERE id=20';
 $result=pg_query($sql);
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
