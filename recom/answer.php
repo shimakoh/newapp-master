@@ -91,8 +91,14 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 echo '<pre>';
 var_dump($record);
 echo '</pre>';
+
+
 ?>
 
+
+<?php 
+$record['j_file'];
+ ?>
 
 
 <!DOCTYPE html>
@@ -121,7 +127,7 @@ echo '</pre>';
                 <h2>
                     <?php echo $record['name']; ?>
                 </h2>
-                  <img src="<?php $record['j_file'] ?>">
+                  <img src="<?php  echo $record['j_file'] ?>">
             </h1>
         </div>
     </div>
