@@ -11,7 +11,7 @@ require('dbconnect.php');
 
 
 
-$sql='SELECT name FROM actresses WHERE id=20';
+$sql='SELECT name FROM users WHERE 1';
 $result=pg_query_params($sql);
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
@@ -19,8 +19,6 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 echo '<pre>';
 var_dump($record);
 echo '</pre>';
-
-echo $record['name'];
 
  ?>
 
