@@ -20,6 +20,8 @@ echo '<pre>';
 var_dump($record);
 echo '</pre>';
 
+echo $record['name'];
+
  ?>
 
 
