@@ -88,7 +88,7 @@ $suuji=count($j);
                 <?php }elseif($k==$suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
                                     <p>????</p>
-                                    <img src="assets/img/error.jpg" width="80%">
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++  ; ?>
@@ -104,8 +104,8 @@ $suuji=count($j);
 <?php break; ?>
                 <?php }elseif($k==$suuji) { ?>
                                <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p ><?php echo $record_a['name']; ?></p>
-                                    <img src="assets/img/error.jpg" width="80%">
+                                    <p >????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++; ?>
@@ -122,8 +122,8 @@ $suuji=count($j);
 <?php break; ?>
                 <?php }elseif($k==$suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p ><?php echo $record_a['name']; ?></p>
-                                    <img src="assets/img/error.jpg" width="80%">
+                                    <p >????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++; ?>
@@ -141,8 +141,8 @@ $suuji=count($j);
 <?php break; ?>
                 <?php }elseif($k==$suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p><?php echo $record_a['name']; ?></p>
-                                    <img src="assets/img/error.jpg" width="80%">
+                                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++; ?>
@@ -159,8 +159,8 @@ $suuji=count($j);
 <?php break; ?>
                 <?php }elseif($k == $suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p ><?php echo $record_a['name']; ?></p>
-                                    <img src="assets/img/error.jpg" width="80%">
+                                    <p >????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++; ?>
@@ -177,8 +177,8 @@ $suuji=count($j);
 <?php break; ?>
                 <?php }elseif($k == $suuji) { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p > <?php echo $record_a['name']; ?></p>
-                                    <img src="assets/img/error.jpg" width="80%" >
+                                    <p > ????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                                 </div>
                 <?php } ?>
                 <?php $k++; ?>
@@ -196,8 +196,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -216,8 +216,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -235,8 +235,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -256,8 +256,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -274,8 +274,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -292,8 +292,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -312,8 +312,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 
 <?php } ?>
@@ -330,8 +330,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -348,8 +348,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -367,8 +367,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -384,8 +384,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -402,8 +402,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -421,8 +421,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -439,8 +439,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
@@ -457,8 +457,8 @@ $suuji=count($j);
 <?php break; ?>
 <?php }elseif($k==$suuji) { ?>
                 <div class="col-md-4 col-lg-4 col-xs-4">
-                    <p><?php echo $record_a['name']; ?></p>
-                    <img src="assets/img/error.jpg" width="80%">
+                    <p>????</p>
+                                    <img src="https://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png" width="80%">
                 </div>
 <?php } ?>
 <?php $k++; ?>
