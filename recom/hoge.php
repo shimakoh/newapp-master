@@ -15,7 +15,7 @@ require('dbconnect.php');
 <meta charset="utf-8">
 <head>
   <title>test</title>
-  <link href="<?php echo  cloudinary_url('https://res.cloudinary.com/hoqcb5m25');?>">
+  <link href="<?php echo  cloudinary_url('https://res.cloudinary.com/hoqcb5m25', array('type' => 'fetch'));?>">
 </head>
 <body>
 <header>練習</header>
