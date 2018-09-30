@@ -5,17 +5,6 @@ require '../vendor/autoload.php';
 require('dbconnect.php');
 
 
-var_dump($_SESSION['recom']['name']);
-var_dump($_SESSION['recom']['id']);
-
-
-
-// \Cloudinary::config(array(
-//     "cloud_name" => "hoqcb5m25",
-//     "api_key" => "867285216379377",
-//     "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
-// ));
-
 if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=1';
 }elseif ($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qwho']=='a' &&
@@ -88,17 +77,7 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
 
 
-echo '<pre>';
-var_dump($record);
-echo '</pre>';
-
-
 ?>
-
-
-<?php 
-$record['j_file'];
- ?>
 
 
 <!DOCTYPE html>
@@ -122,7 +101,6 @@ $record['j_file'];
         </header>
         <div class="container">
             <h1 class="theme">結果！</h1>
-
             <h1 class="theme">
                 <h2>
                     <?php echo $record['name']; ?>
@@ -172,12 +150,12 @@ session_destroy();
                     echo '不正解！';
                 }
                 ?> -->
-                </h3><br>
+<!--                 </h3><br>
                 <div class="answer">
                     <p>購入:</p>
-<!--                     <p>あなたの答え、 <?php echo $answer;?> -->
+                    <p>あなたの答え、 <?php echo $answer;?>
                     </p>
-                </div>
+                </div> -->
 <!-- 
         <footer class="header">
             <p>Quiz, PHP practice 2018.</p>
