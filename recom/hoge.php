@@ -11,8 +11,8 @@ require('dbconnect.php');
 
 
 
-
-$result=pg_query('SELECT name,j_file FROM actresses WHERE id=20');
+$sql='SELECT name,j_file FROM actresses WHERE id=20';
+$result=pg_query($sql);
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
 
