@@ -90,7 +90,7 @@ $jname=array();
 $jname[]=$record;
 
 echo '<pre>';
-var_dump($record);
+var_dump($jname);
 echo '</pre>';
 ?>
 
@@ -123,7 +123,7 @@ echo '</pre>';
                     <?php echo $record['name']; ?>
                 </h2>
 <!--                  <img src="/assets/img/<?php $record['j_file'] ?>" width="80%"> -->
-                  <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/<?php $record['j_file'] ?>" width="80%">
+                  <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/<?php $record['j_file'] ?>">
             </h1>
         </div>
     </div>
