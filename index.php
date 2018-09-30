@@ -97,7 +97,7 @@ if (!empty($_POST)) {
 
                 </div><br>
                 <input type="submit" class="btn btn-primary" value="チャレンジ!!">
-                <a href="./recom/hoge.php" style="float: right;padding-top: 6px;" class="text-success">
+                <a href="./recom/signin.php" style="float: right;padding-top: 6px;" class="text-success">
                     サインイン
                 </a>
             </form>

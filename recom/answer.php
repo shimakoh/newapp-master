@@ -82,7 +82,7 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
 }
 // $stmt = $dbh->prepare($sql);
 // $stmt->execute();
-$result=pg_query_params($sql);
+$result=pg_query($sql);
 // $record = $stmt->fetch(PDO::FETCH_ASSOC);
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
