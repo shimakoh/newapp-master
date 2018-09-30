@@ -9,11 +9,11 @@ var_dump($_SESSION['recom']['id']);
 
 
 
-\Cloudinary::config(array(
-    "cloud_name" => "hoqcb5m25",
-    "api_key" => "867285216379377",
-    "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
-));
+// \Cloudinary::config(array(
+//     "cloud_name" => "hoqcb5m25",
+//     "api_key" => "867285216379377",
+//     "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
+// ));
 
 if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=1';
