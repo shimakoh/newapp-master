@@ -86,11 +86,11 @@ $result=pg_query_params($sql);
 
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
-$jname=array();
-$jname[]=$record;
+// $jname=array();
+// $jname[]=$record;
 
 echo '<pre>';
-var_dump($jname);
+var_dump($reord);
 echo '</pre>';
 ?>
 
