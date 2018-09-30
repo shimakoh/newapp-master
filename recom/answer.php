@@ -90,7 +90,7 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 // $jname[]=$record;
 
 echo '<pre>';
-var_dump($reord);
+var_dump($record);
 echo '</pre>';
 ?>
 
