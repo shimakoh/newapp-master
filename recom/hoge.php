@@ -11,7 +11,7 @@ require('dbconnect.php');
 
 
 
-$sql='SELECT name,j_file FROM actresses WHERE id=20';
+$sql='SELECT j_file FROM actresses WHERE id=20';
 $result=pg_query($sql);
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
@@ -19,6 +19,8 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 echo '<pre>';
 var_dump($record);
 echo '</pre>';
+
+
 
  ?>
 
@@ -35,6 +37,9 @@ echo '</pre>';
 <header>練習</header>
 <h1>
    <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/abemi.jpg" >
+<img src="<?php $record['jfile']; ?>">
+
+
 </h1>
 </body>
 </html>
