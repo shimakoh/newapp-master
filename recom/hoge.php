@@ -35,7 +35,7 @@ echo '</pre>';
 <header>練習</header>
 <h1>
    <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/abemi.jpg" >
-<img src="<?php $record['j_file']; ?>">
+<img src="<?php echo $record['j_file']; ?>">
 
 
 </h1>
