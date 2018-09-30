@@ -1,8 +1,9 @@
 <?php
 session_start();
+
 require '../vendor/autoload.php';
 require('dbconnect.php');
-$jname='';
+
 
 var_dump($_SESSION['recom']['name']);
 var_dump($_SESSION['recom']['id']);
@@ -83,10 +84,11 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
 // $stmt->execute();
 $result=pg_query_params($sql);
 // $record = $stmt->fetch(PDO::FETCH_ASSOC);
-// $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
-$record=pg_fetch_all($result);
-// $jname=array();
-// $jname[]=$record;
+$record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
+
+
+
+echo $record['name'];
 
 echo '<pre>';
 var_dump($record);
