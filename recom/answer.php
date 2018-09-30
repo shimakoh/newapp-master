@@ -88,8 +88,6 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
 
 
-echo $record['name'];
-
 echo '<pre>';
 var_dump($record);
 echo '</pre>';

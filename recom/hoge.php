@@ -8,7 +8,22 @@ require('dbconnect.php');
 //     "api_key" => "867285216379377",
 //     "api_secret" => "kWv8Z3zei67qmqlOpmtiqLzxL5g"
 // ));
+
+
+
+$sql='SELECT name,j_file FROM actresses WHERE id=20';
+$result=pg_query_params($sql);
+$record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
+
+
+echo '<pre>';
+var_dump($record);
+echo '</pre>';
+
  ?>
+
+
+
 
 <!DOCTYPE html>
 <html lang="ja">
