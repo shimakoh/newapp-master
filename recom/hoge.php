@@ -11,10 +11,13 @@ require('dbconnect.php');
 
 
 
-$sql='SELECT name FROM users WHERE 1';
-$result=pg_query_params($sql);
-$record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
+// $sql='SELECT name FROM users WHERE 1';
+// $result=pg_query_params($sql);
+// $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
+ $sql='SELECT id FROM users WHERE 1';
+         $result=pg_query_params($sql);
+        $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
 echo '<pre>';
 var_dump($record);
