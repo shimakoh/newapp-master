@@ -71,7 +71,6 @@ if (!empty($_POST)) {
         </header>
         <div class="container">
             <h1 class="theme">サインイン画面！</h1>
-
             <form method="POST" action="signin.php">
                 <div class="section">
 

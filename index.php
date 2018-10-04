@@ -76,7 +76,6 @@ if (!empty($_POST)) {
         <div class="container">
             <h1 class="theme">名前を入力してください！</h1>
             <p class="theme">(名前を入力すると、後から履歴を確認できます。)</p>
-
             <form method="POST" action="index.php">
                 <div class="section">
 

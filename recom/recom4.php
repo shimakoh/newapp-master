@@ -11,14 +11,14 @@ require '../vendor/autoload.php';
 if (!empty($_POST['answerchara'])) {
     $_SESSION['recom']['Qchara']=$_POST['answerchara'];
 
-    header('Location: answer.php');
+    header('Location: answer2.php');
     excit();
 }
 
 if (!empty($_POST['answerwhen'])) {
     $_SESSION['recom']['Qwhen']=$_POST['answerwhen'];
 
-    header('Location: answer.php');
+    header('Location: answer2.php');
     excit();
 }
 
