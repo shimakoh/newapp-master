@@ -12,8 +12,8 @@ require '../vendor/autoload.php';
 // $stmt = $dbh->prepare($sql);
 // $stmt->execute($data);
 
-$sql='SELECT jname,username FROM itiran AS i LEFT JOIN users AS u ON i.user_id = u.id';
-$data=array();
+$sql='SELECT jname FROM itiran WHERE user_id=$1';
+$data=array($_SESSION['recom']['id']);
 $result=pg_query_params($sql,$data);
 
 
@@ -39,8 +39,8 @@ $result=pg_query_params($sql,$data);
 $record_a =pg_fetch_array($result,NULL,PGSQL_ASSOC);
 $_SESSION['recom']['r_name']=$record_a['name'];
 
-count($j);
-$suuji=count($j);
+// count($j);
+// $suuji=count($j);
 
 ?>
 
