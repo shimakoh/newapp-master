@@ -6,18 +6,13 @@ $number=0;
 $k=1;
 
 require '../vendor/autoload.php';
-// \Cloudinary::config(array(
-//     "cloud_name" => "hb2ekbyxa",
-//     "api_key" => "935614219356682",
-//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-// ));
 
 // $sql='SELECT `i`.`jname`,`u`.`username` FROM `itiran` AS `i` LEFT JOIN `users` AS `u` ON `i`.`user_id`=`u`.`id`';
 // $data=array();
 // $stmt = $dbh->prepare($sql);
 // $stmt->execute($data);
 
-$sql='SELECT `i`.`jname`,`u`.`username` FROM `itiran` AS `i` LEFT JOIN `users` AS `u` ON `i`.`user_id`=`u`.`id`';
+$sql='SELECT i.`jname`,u.`username` FROM itiran AS i LEFT JOIN users AS u ON i.`user_id` = u.`id`';
 $data=array();
 $result=pg_query_params($sql,$data);
 
