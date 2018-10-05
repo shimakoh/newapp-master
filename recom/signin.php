@@ -67,8 +67,6 @@ if (!empty($_POST)) {
         <header class="header">
             <a class="title" href="/index.php">Home</a>
         </header>
-        <header class="header">
-        </header>
         <div class="container">
             <h1 class="theme">サインイン画面！</h1>
             <form method="POST" action="signin.php">

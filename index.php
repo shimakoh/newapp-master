@@ -71,8 +71,6 @@ if (!empty($_POST)) {
         <header class="header">
             <a class="title" href="./recom/recomendation.php">Home</a>
         </header>
-        <header class="header">
-        </header>
         <div class="container">
             <h1 class="theme">名前を入力してください！</h1>
             <p class="theme">(名前を入力すると、後から履歴を確認できます。)</p>
