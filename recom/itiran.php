@@ -12,7 +12,7 @@ require '../vendor/autoload.php';
 // $stmt = $dbh->prepare($sql);
 // $stmt->execute($data);
 
-$sql='SELECT i.`jname`,u.`username` FROM itiran AS i LEFT JOIN users AS u ON i.`user_id` = u.`id`';
+$sql='SELECT jname,username FROM itiran AS i LEFT JOIN users AS u ON i.user_id = u.id';
 $data=array();
 $result=pg_query_params($sql,$data);
 
