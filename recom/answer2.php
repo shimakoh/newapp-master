@@ -26,9 +26,7 @@ if ($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qwho']=='a' &&
 }elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a' &&
                              $_SESSION['recom']['Qwhen']=='a'){
     $sql='SELECT name,j_file FROM actresses WHERE id=10';
-}elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
-                             $_SESSION['recom']['Qwhob']=='c' ||
-        $_SESSION['recom']['Qba']=='c' && $_SESSION['recom']['Qchara']=='c'){
+}elseif($_SESSION['recom']['Qba']=='c' && $_SESSION['recom']['Qchara']=='c'){
     $sql='SELECT name,j_file FROM actresses WHERE id=11';
 }elseif($_SESSION['recom']['Qc']=='a' && $_SESSION['recom']['Qb']=='a'&&
                            $_SESSION['recom']['Qchara']=='a'){
