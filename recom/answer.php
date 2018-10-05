@@ -7,35 +7,34 @@ require('dbconnect.php');
 
 if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=1';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=3';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='b' &&
-//                             $_SESSION['recom']['Qwho']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=4';
-// }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qha']=='c' &&
-//                             $_SESSION['recom']['Qsatisfy']=='b' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=5';
-// }elseif($_SESSION['recom']['Qc']=='c' && $_SESSION['recom']['Qha']=='b' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=12';
-// }elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=13';
-// }elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=14';
-// }elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
-//                              $_SESSION['recom']['Qwhob']=='c' ||
-//                            $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
-//                              $_SESSION['recom']['Qsatisfy']=='c' ||
-//                            $_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qwhob']=='c' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=16';
-// }elseif($_SESSION['recom']['Qha']=='C' && $_SESSION['recom']['Qwhen']=='c'){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=18';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=3';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='b' &&
+                            $_SESSION['recom']['Qwho']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=4';
+}elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qha']=='c' &&
+                            $_SESSION['recom']['Qsatisfy']=='b' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=5';
+}elseif($_SESSION['recom']['Qc']=='c' && $_SESSION['recom']['Qha']=='b' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=12';
+}elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=13';
+}elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=14';
+}elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
+                             $_SESSION['recom']['Qwhob']=='c' ||
+                           $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
+                             $_SESSION['recom']['Qsatisfy']=='c' ||
+                           $_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qwhob']=='c' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=16';
+}elseif($_SESSION['recom']['Qha']=='C' && $_SESSION['recom']['Qwhen']=='c'){
+    $sql='SELECT name,j_file FROM actresses WHERE id=18';
 }else{
     $sql='SELECT name,j_file FROM actresses WHERE id=20';
 }
-// $stmt = $dbh->prepare($sql);
-// $stmt->execute();
+
 $result=pg_query($sql);
-// $record = $stmt->fetch(PDO::FETCH_ASSOC);
+
 $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 
 ?>
@@ -73,55 +72,15 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
 </body>
 </html>
 <?php
-// $sql = 'INSERT INTO `itiran` SET `jname`=?,`user_id`=?';
-// $data = array($record['name'], $_SESSION['recom']['id']);
-// $stmt = $dbh->prepare($sql);
-// $stmt->execute($data);
 
-// exit();
-
-// $sql = 'INSERT INTO itiran SET `jname`=$1,`user_id`=$1';
 $sql = 'INSERT INTO itiran(jname,user_id) VALUES($1,$2)';
 $data = array($record['name'], $_SESSION['recom']['id']);
 $result=pg_query_params($sql,$data);
 
 
-// header('Location: itiran.php');
 pg_close($dbh);
 ?>
 
 <?php
 session_destroy();
 ?>
-
-<!--             <?php
-            if($answer=='a'){
-                    echo '100点';
-                }else{
-                    echo '0点！';
-                }
-            ?>
-            </h1>
-            <div class="section">
-                <h3><span>Q1.</span>
-                <?php
-                if($answer=='a'){
-                    echo '正解！';
-                }else{
-                    echo '不正解！';
-                }
-                ?> -->
-<!--                 </h3><br>
-                <div class="answer">
-                    <p>購入:</p>
-                    <p>あなたの答え、 <?php echo $answer;?>
-                    </p>
-                </div> -->
-<!-- 
-        <footer class="header">
-            <p>Quiz, PHP practice 2018.</p>
-        </footer> -->
-<!--     </div>
-</body> -->
-
-<!-- </html> -->
