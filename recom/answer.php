@@ -22,16 +22,16 @@ if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=12';
 }elseif($_SESSION['recom']['Qc']=='c' $_SESSION['recom']['Qwho']=='a'){
     $sql='SELECT name,j_file FROM actresses WHERE id=13';
-}elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
-    $sql='SELECT name,j_file FROM actresses WHERE id=14';
-//}elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
-//                              $_SESSION['recom']['Qwhob']=='c' ||
-//                            $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
-//                              $_SESSION['recom']['Qsatisfy']=='c' ||
-//                            $_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qwhob']=='c' ){
-//     $sql='SELECT name,j_file FROM actresses WHERE id=16';
-}elseif($_SESSION['recom']['Qha']=='C' && $_SESSION['recom']['Qwhen']=='c'){
-    $sql='SELECT name,j_file FROM actresses WHERE id=18';
+// }elseif($_SESSION['recom']['Qha']=='b' && $_SESSION['recom']['Qsatisfy']=='b'){
+//     $sql='SELECT name,j_file FROM actresses WHERE id=14';
+}elseif($_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qh']=='a' &&
+                             $_SESSION['recom']['Qwhob']=='c' ||
+                           $_SESSION['recom']['Qa']=='d' && $_SESSION['recom']['Qha']=='c' &&
+                             $_SESSION['recom']['Qsatisfy']=='c' ||
+                           $_SESSION['recom']['Qfa']=='c' && $_SESSION['recom']['Qwhob']=='c' ){
+    $sql='SELECT name,j_file FROM actresses WHERE id=16';
+// }elseif($_SESSION['recom']['Qha']=='C' && $_SESSION['recom']['Qwhen']=='c'){
+//     $sql='SELECT name,j_file FROM actresses WHERE id=18';
 }else{
     $sql='SELECT name,j_file FROM actresses WHERE id=20';
 }
