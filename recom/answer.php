@@ -96,35 +96,3 @@ pg_close($dbh);
 <?php
 session_destroy();
 ?>
-
-<!--             <?php
-            if($answer=='a'){
-                    echo '100点';
-                }else{
-                    echo '0点！';
-                }
-            ?>
-            </h1>
-            <div class="section">
-                <h3><span>Q1.</span>
-                <?php
-                if($answer=='a'){
-                    echo '正解！';
-                }else{
-                    echo '不正解！';
-                }
-                ?> -->
-<!--                 </h3><br>
-                <div class="answer">
-                    <p>購入:</p>
-                    <p>あなたの答え、 <?php echo $answer;?>
-                    </p>
-                </div> -->
-<!-- 
-        <footer class="header">
-            <p>Quiz, PHP practice 2018.</p>
-        </footer> -->
-<!--     </div>
-</body> -->
-
-<!-- </html> -->

@@ -36,6 +36,7 @@ echo '</pre>';
 <h1>
    <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030778/avimg/abemi.jpg" >
 <img src="<?php echo $record['j_file']; ?>">
+<img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538311947/avimg/nmorhffsh1zd1grb4ltj.png">
 
 
 </h1>
