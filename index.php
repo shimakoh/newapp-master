@@ -3,11 +3,7 @@ session_start();
 require('./recom/dbconnect.php');
 
 require './vendor/autoload.php';
-// \Cloudinary::config(array(
-//     "cloud_name" => "hb2ekbyxa",
-//     "api_key" => "935614219356682",
-//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-// ));
+
 
 $errors=array();
 
@@ -69,11 +65,11 @@ if (!empty($_POST)) {
 <body>
     <div class="wrapper">
         <header class="header">
-            <a class="title" href="./recom/recomendation.php">Home</a>
+            <a class="title" href="index.php">Home</a>
         </header>
         <div class="container">
             <h1 class="theme">名前を入力してください！</h1>
-            <p class="theme">(名前を入力すると、後から履歴を確認できます。)</p>
+            <p class="theme">(名前を覚えておくと、一覧からあなたの履歴を確認できます。)</p>
             <form method="POST" action="index.php">
                 <div class="section">
 
@@ -93,16 +89,14 @@ if (!empty($_POST)) {
                     </h3>
 
                 </div><br>
-                <input type="submit" class="btn btn-primary" value="チャレンジ!!">
+                <input type="submit" class="btn btn-primary" value="oppai!!">
                 <a href="./recom/signin.php" style="float: right;padding-top: 6px;" class="text-success">
                     サインイン
                 </a>
             </form>
-
-
         </div>
         <footer class="header">
-            <p>Quiz, PHP practice 2018.</p>
+            <p>AV only for you!!</p>
         </footer>
     </div>
 </body>

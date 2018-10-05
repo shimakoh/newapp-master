@@ -69,6 +69,7 @@ if (!empty($_POST)) {
         </header>
         <div class="container">
             <h1 class="theme">サインイン画面！</h1>
+            <p class="theme">(21の女優・シチュエーションをコンプリート！)</p>
             <form method="POST" action="signin.php">
                 <div class="section">
 
@@ -91,13 +92,13 @@ if (!empty($_POST)) {
                     </h3>
 
                 </div><br>
-                <input type="submit" class="btn btn-primary" value="チャレンジ!!">
+                <input type="submit" class="btn btn-primary" value="oppai!!">
             </form>
 
 
         </div>
         <footer class="header">
-            <p>Quiz, PHP practice 2018.</p>
+            <p>AV only for you!!</p>
         </footer>
     </div>
 </body>

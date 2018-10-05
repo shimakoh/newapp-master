@@ -456,7 +456,7 @@ $suuji=count($j);
 
         </div>
         <footer class="header">
-            <p>Quiz, PHP practice 2018.</p>
+            <p>AV only for you!!</p>
         </footer>
     </div>
 </body>
