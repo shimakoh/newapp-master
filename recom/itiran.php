@@ -39,8 +39,8 @@ $result=pg_query_params($sql,$data);
 $record_a =pg_fetch_array($result,NULL,PGSQL_ASSOC);
 $_SESSION['recom']['r_name']=$record_a['name'];
 
-// count($j);
-// $suuji=count($j);
+count($j);
+$suuji=count($j);
 
 ?>
 
