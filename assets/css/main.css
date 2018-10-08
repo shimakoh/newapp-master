@@ -70,7 +70,7 @@ li:active {
   margin: 30px auto 120px auto;
   padding: 50px;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .theme {
@@ -89,7 +89,7 @@ li:active {
 }*/
 
 footer{
-  height: 50px;
+  height: 35px;
   width: 100%;
   background-color: rgba(65, 105, 255, 0.8);
   color:white;
@@ -100,5 +100,6 @@ footer{
 }
 
 footer p {
-  padding-top: 15px
+  padding-top: 10px
+  padding-bottom:10px;
 }
