@@ -58,8 +58,8 @@ $suuji=count($j);
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="wrapper , special" >
+<body class="special">
+    <div class="wrapper" >
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
             <a class="title" href="itiran.php">嬢一覧</a>
