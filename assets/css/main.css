@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   font-family: Arial, sans-serif;
 /*  background:url(../img/contents_bg01.jpg);*/
-  background: url(http://res.cloudinary.com/hoqcb5m25/image/upload/c_scale,w_580/v1539005529/avimg/hyoushi.jpg);
+  background: url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1539005529/avimg/hyoushi.jpg);
   background-size:cover;
   background-attachment:fixed;
   margin: 0 0 10px;
