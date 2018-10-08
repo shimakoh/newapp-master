@@ -59,7 +59,7 @@ $suuji=count($j);
 </head>
 
 <body>
-    <div class="wrapper" class="special">
+    <div class="wrapper , special" >
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
             <a class="title" href="itiran.php">嬢一覧</a>
