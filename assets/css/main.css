@@ -4,7 +4,7 @@ body {
 /*  background:url(../img/contents_bg01.jpg);*/
 /*  background: url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030774/avimg/tina.jpg);*/
   background:url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1538754323/avimg/hatena.jpg);
-  background-size:cover;
+  background-size:contain;
   background-attachment:fixed;
   margin: 0 0 10px;
 }
@@ -70,7 +70,7 @@ li:active {
   margin: 30px auto 120px auto;
   padding: 50px;
   background-color: white;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .theme {
