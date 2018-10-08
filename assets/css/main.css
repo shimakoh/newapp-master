@@ -87,6 +87,12 @@ li:active {
   border: 1px solid #ddd;
 }*/
 
+.special{
+  background:url(../img/contents_bg01.jpg);
+
+}
+
+
 footer{
   height: 35px;
   width: 100%;

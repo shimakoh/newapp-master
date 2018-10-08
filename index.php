@@ -63,7 +63,7 @@ if (!empty($_POST)) {
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" class="special">
         <header class="header">
             <a class="title" href="index.php">Home</a>
         </header>

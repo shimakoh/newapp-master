@@ -59,7 +59,7 @@ $suuji=count($j);
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" class="special">
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
             <a class="title" href="itiran.php">嬢一覧</a>
@@ -70,7 +70,7 @@ $suuji=count($j);
             </h3>
 
 
-            <div class="row">
+            <div class="row" >
                 <?php foreach($j as $actress) { ?>
                     <?php if($actress['jname']=='あべみかこ')  { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
