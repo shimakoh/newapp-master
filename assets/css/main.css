@@ -2,7 +2,10 @@ body {
   font-size: 16px;
   font-family: Arial, sans-serif;
 /*  background:url(../img/contents_bg01.jpg);*/
-  background: url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030774/avimg/tina.jpg);
+/*  background: url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030774/avimg/tina.jpg);*/
+  background:url(http://res.cloudinary.com/hoqcb5m25/image/upload/v1538754323/avimg/hatena.jpg);
+  background-size:cover;
+  background-attachment:fixed;
   margin: 0 0 10px;
 }
 

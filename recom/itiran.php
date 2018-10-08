@@ -438,7 +438,9 @@ $suuji=count($j);
                 <?php foreach($j as $actress) { ?>
                     <?php if($actress['jname']=='SOD') { ?>
                                 <div class="col-md-4 col-lg-4 col-xs-4">
-                                    <p>SOD</p>
+                                    <p>
+                                            SOD
+                                    </p>
                                     <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538030777/avimg/SOD.jpg" width="80%">
                                 </div>
                     <?php break; ?>
