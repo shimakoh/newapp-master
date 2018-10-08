@@ -78,6 +78,7 @@ if (isset($_POST['answer_b'])) {
     <div class="wrapper">
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
+            <a class="title" href="itiran.php">嬢一覧</a>
         </header>
         <div class="container">
             <h1 class="theme">おすすめを紹介！</h1>

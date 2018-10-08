@@ -63,6 +63,7 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
     <div class="wrapper">
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
+            <a class="title" href="itiran.php">嬢一覧</a>
         </header>
         <div class="container">
             <h1 class="theme">結果！</h1>
