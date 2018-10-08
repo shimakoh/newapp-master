@@ -59,7 +59,7 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="special">
     <div class="wrapper">
         <header class="header">
             <a class="title" href="recomendation.php">Home</a>
