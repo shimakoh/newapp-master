@@ -96,6 +96,3 @@ $result=pg_query_params($sql,$data);
 pg_close($dbh);
 ?>
 
-<?php
-session_destroy();
-?>

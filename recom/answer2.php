@@ -90,6 +90,3 @@ pg_close($dbh);
  ?>
 
 
-<?php
-session_destroy();
-?>
