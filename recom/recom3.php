@@ -9,7 +9,14 @@ require '../vendor/autoload.php';
 // ));
 
 // $Q3='';
- 
+
+$_SESSION['recom']['error4']=1;
+
+if(!empty($_SESSION['recom']['error5'])){
+    header('Location: error.php');
+    excit();
+}
+
 if (isset($_POST['answerwho'])) {
     if ($_POST['answerwho']=='a') {
         $_SESSION['recom']['Qwho']=$_POST['answerwho'];

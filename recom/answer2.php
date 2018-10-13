@@ -5,7 +5,7 @@ session_start();
 require '../vendor/autoload.php';
 require('dbconnect.php');
 
-
+$_SESSION['recom']['error6']=1;
 if ($_SESSION['recom']['Qf']=='a' && $_SESSION['recom']['Qwho']=='a' &&
      $_SESSION['recom']['Qwhen']=='b' ||
          $_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qwho']=='a' &&

@@ -5,6 +5,8 @@ require '../vendor/autoload.php';
 require('dbconnect.php');
 
 
+$_SESSION['recom']['error5']=1;
+
 if($_SESSION['recom']['Qc']=='b' && $_SESSION['recom']['Qb']=='b'){
     $sql='SELECT name,j_file FROM actresses WHERE id=1';
 }elseif($_SESSION['recom']['Qf']=='b' && $_SESSION['recom']['Qb']=='a'){

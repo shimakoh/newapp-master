@@ -8,6 +8,15 @@ require '../vendor/autoload.php';
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
+$_SESSION['recom']['error2']=1;
+$_SESSION['recom']['error3']=1;
+$_SESSION['recom']['error5']=1;
+
+if(!empty($_SESSION['recom']['error6'])){
+    header('Location: error.php');
+    excit();
+}
+
 if (!empty($_POST['answerchara'])) {
     $_SESSION['recom']['Qchara']=$_POST['answerchara'];
 

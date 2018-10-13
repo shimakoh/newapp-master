@@ -2,19 +2,17 @@
 session_start();
 
 require '../vendor/autoload.php';
-// \Cloudinary::config(array(
-//     "cloud_name" => "hb2ekbyxa",
-//     "api_key" => "935614219356682",
-//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-// ));
 
 require '../vendor/autoload.php';
-// \Cloudinary::config(array(
-//     "cloud_name" => "hb2ekbyxa",
-//     "api_key" => "935614219356682",
-//     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
-// ));
 
+if(!empty($_SESSION['recom']['error4'])){
+    header('Location: error.php');
+    excit();
+}
+
+$_SESSION['recom']['error1']=1;
+$_SESSION['recom']['error2']=1;
+$_SESSION['recom']['error3']=1;
 
 $Q1='';
 if (isset($_POST['answer_h'])) {

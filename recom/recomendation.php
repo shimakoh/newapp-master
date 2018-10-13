@@ -10,6 +10,11 @@ require '../vendor/autoload.php';
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
+if(!empty($_SESSION['recom']['error1'])){
+    header('Location: error.php');
+    excit();
+}
+
 echo  $_SESSION['recom']['name'];
         $_SESSION['recom']['Q1']='';
         $_SESSION['recom']['Qa']='';

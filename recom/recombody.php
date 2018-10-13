@@ -9,7 +9,12 @@ require '../vendor/autoload.php';
 //     "api_key" => "935614219356682",
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
+if(!empty($_SESSION['recom']['error3'])){
+    header('Location: error.php');
+    excit();
+}
 
+$_SESSION['recom']['error2']=1;
 
 if (isset($_POST['answer_b'])) {
     if ($_POST['answer_b']=='a' || $_POST['answer_b']=='b') {
