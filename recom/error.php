@@ -25,7 +25,7 @@ require '../vendor/autoload.php';
 <body class="special">
     <div class="wrapper">
         <header class="header">
-            <a class="title" href="recomendation.php">Home</a>
+            <a class="title" href="signin.php">Home</a>
         </header>
         <div class="container">
             <h1 class="theme">人生で巻き戻しは出来ないよ！</h1>
