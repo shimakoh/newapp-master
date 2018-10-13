@@ -22,7 +22,7 @@ require '../vendor/autoload.php';
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="special">
     <div class="wrapper">
         <header class="header">
             <a class="title" href="index.php">Home</a>
