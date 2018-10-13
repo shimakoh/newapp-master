@@ -90,3 +90,12 @@ pg_close($dbh);
  ?>
 
 
+<?php 
+$_SESSION['recom']['error1']='';
+$_SESSION['recom']['error2']='';
+$_SESSION['recom']['error3']='';
+$_SESSION['recom']['error4']='';
+$_SESSION['recom']['error5']='';
+$_SESSION['recom']['error6']='';
+
+ ?>
