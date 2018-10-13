@@ -77,7 +77,7 @@ if (!empty($_POST)) {
                         <label for="name">ユーザー名</label>
                         <input type="text" name="input_name" class="form-control" id="name" placeholder="cote de pablo">
                         <?php if(isset($errors['signin']) && $errors['signin']=='blank') { ?>
-                        <p class="text-danger">メールアドレスとパスワードを正しく入力してください</p>
+                        <p class="text-danger">ユーザー名とパスワードを正しく入力してください</p>
                         <?php } ?>
                         <?php if(isset($errors['signin']) && $errors['signin']=='failed') { ?>
                         <p class="text-danger">サインインに失敗しました!</p>

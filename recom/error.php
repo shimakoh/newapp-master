@@ -39,3 +39,8 @@ require '../vendor/autoload.php';
 </body>
 
 </html>
+
+<?php
+session_destroy();
+?>
+

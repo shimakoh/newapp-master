@@ -10,7 +10,10 @@ require '../vendor/autoload.php';
 //     "api_secret" => "3tTB_g7_AP4j4hRkReEWhm9zHu0"
 // ));
 
-
+if(!empty($_SESSION['recom']['error1'])){
+    header('Location: error.php');
+    excit();
+}
 
 echo  $_SESSION['recom']['name'];
         $_SESSION['recom']['Q1']='';
@@ -31,17 +34,6 @@ echo  $_SESSION['recom']['name'];
         $_SESSION['recom']['Qsatisfy']='';
         $_SESSION['recom']['Qsatisfya']='';
         $_SESSION['recom']['Qwho']='';
-$_SESSION['recom']['error1']='';
-$_SESSION['recom']['error2']='';
-$_SESSION['recom']['error3']='';
-$_SESSION['recom']['error4']='';
-$_SESSION['recom']['error5']='';
-$_SESSION['recom']['error6']='';
-
-if(!empty($_SESSION['recom']['error1'])){
-    header('Location: error.php');
-    excit();
-}
 
 
 if (!empty($_POST['answer'])) {
