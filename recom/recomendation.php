@@ -34,6 +34,13 @@ echo  $_SESSION['recom']['name'];
         $_SESSION['recom']['Qsatisfy']='';
         $_SESSION['recom']['Qsatisfya']='';
         $_SESSION['recom']['Qwho']='';
+$_SESSION['recom']['error1']='';
+$_SESSION['recom']['error2']='';
+$_SESSION['recom']['error3']='';
+$_SESSION['recom']['error4']='';
+$_SESSION['recom']['error5']='';
+$_SESSION['recom']['error6']='';
+
 
 if (!empty($_POST['answer'])) {
     if ($_POST['answer']=='a' || $_POST['answer']=='b' || $_POST['answer']=='c') {
@@ -118,7 +125,7 @@ if (!empty($_POST['answer'])) {
                 <div class="section">
 
                     <h3>
-                        <span>Q1.</span>何で選ぶ？
+                        <span>Q.</span>何で選ぶ？
                     </h3>
                     <ul>
                         <li>a. 顔</li>

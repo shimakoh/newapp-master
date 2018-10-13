@@ -80,7 +80,7 @@ if (isset($_POST['answersatisfy'])) {
 <?php if ($_SESSION['recom']['Qh']=='a') { ?>
             <form method="POST" action="recom3.php">
                 <div class="section">
-                    <h3><span>Q3.</span>誰としたの？</h3>
+                    <h3><span>Q.</span>誰としたの？</h3>
                     <ul>
                         <li>a. 彼女</li>
                         <li>b. セフレ</li>
@@ -97,7 +97,7 @@ if (isset($_POST['answersatisfy'])) {
 <?php if ($_SESSION['recom']['Qha']=='b' || $_SESSION['recom']['Qha']=='c') { ?>
             <form method="POST" action="recom3.php">
                 <div class="section">
-                    <h3><span>Q3.</span>その頻度で満足してる？</h3>
+                    <h3><span>Q.</span>その頻度で満足してる？</h3>
                     <ul>
                         <li>a. 問題ない！</li>
                         <li>b. もっとしたい...</li>

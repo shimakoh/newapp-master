@@ -92,7 +92,7 @@ if (isset($_POST['answer_b'])) {
 <?php if ($_SESSION['recom']['Q1']=='a') { ?>
             <form method="POST" action="recomface.php">
                 <div class="section">
-                    <h3><span>Q1.</span>理想の顔は？</h3>
+                    <h3><span>Q.</span>理想の顔は？</h3>
                     <ul>
                         <li>a. かわいい</li>
                         <li>b. 綺麗</li>
@@ -109,7 +109,7 @@ if (isset($_POST['answer_b'])) {
 <?php if ($_SESSION['recom']['Q1']=='b' ){ ?>
             <form method="POST" action="recomface.php">
                 <div class="section">
-                    <h3><span>Q2.</span>理想の体型は？</h3>
+                    <h3><span>Q.</span>理想の体型は？</h3>
                     <ul>
                         <li>a. ぽっちゃり</li>
                         <li>b. ガリ/普通</li>
@@ -127,7 +127,7 @@ if (isset($_POST['answer_b'])) {
 <?php if ($_SESSION['recom']['Q1']=='c') { ?>
             <form method="POST" action="recomface.php">
                 <div class="section">
-                    <h3><span>Q1.</span>大きさの好みは？</h3>
+                    <h3><span>Q.</span>大きさの好みは？</h3>
                     <ul>
                         <li>a. 巨乳</li>
                         <li>b. 貧乳</li>

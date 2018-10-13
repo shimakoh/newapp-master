@@ -62,7 +62,7 @@ if (isset($_POST['answer_h'])) {
 
             <form method="POST" action="recomHhow.php">
                 <div class="section">
-                    <h3><span>Q2.</span>どれくらいの頻度でHできてる？</h3>
+                    <h3><span>Q.</span>どれくらいの頻度でHできてる？</h3>
                     <ul>
                         <li>a. 毎日</li>
                         <li>b. 週2.3</li>

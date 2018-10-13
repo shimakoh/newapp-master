@@ -62,7 +62,7 @@ if (isset($_POST['answer_b'])) {
            isset($_SESSION['recom']['Qc'])){ ?>
             <form method="POST" action="recombody.php">
                 <div class="section">
-                    <h3><span>Q2.</span>理想の体型は？</h3>
+                    <h3><span>Q.</span>理想の体型は？</h3>
                     <ul>
                         <li>a. ぽっちゃり</li>
                         <li>b. ガリ/普通</li>
