@@ -67,7 +67,7 @@ if (!empty($_POST)) {
         <header class="header">
             <a class="title" href="index.php">Home</a>
         </header>
-        <div class="container">
+        <div class="container mt-3">
             <h1 class="theme">名前を入力してください！</h1>
             <p class="theme">(名前を覚えておくと、一覧からあなたの履歴を確認できます。)</p>
             <form method="POST" action="index.php">
