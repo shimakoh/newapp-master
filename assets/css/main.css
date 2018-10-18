@@ -4,7 +4,7 @@
 }
 
 
-img{
+div > img{
   max-width: 50%;
 }
 
@@ -123,6 +123,6 @@ footer p {
 }
 
 
-img{
+div > img{
   max-width: 50%;
 }
