@@ -70,7 +70,7 @@ $record=pg_fetch_array($result,NULL,PGSQL_ASSOC);
                 <h2>
                   <?php echo $record['name']; ?>
                 </h2>
-                  <img src="<?php echo $record['j_file']; ?>" width="80%">
+                  <img src="<?php echo $record['j_file']; ?>" width="80%" >
             </h1>
         </div>
     </div>

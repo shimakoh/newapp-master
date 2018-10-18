@@ -30,7 +30,8 @@ require '../vendor/autoload.php';
         <div class="container">
             <h1 class="theme">人生で巻き戻しは出来ないよ！</h1>
             <p class="theme">もう一回最初からやり直してね</p>
-            <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1539358081/avimg/error.gif">
+<!--             <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1539358081/avimg/error.gif"> -->
+            <img src="http://res.cloudinary.com/hoqcb5m25/image/upload/v1538754323/avimg/hatena.jpg" >
         </div>
         <footer class="header">
             <p>AV only for you!!</p>
