@@ -73,7 +73,7 @@ li:active {
   position: fixed;
   font-size: 20px;
   line-height: 50px;
-  float: left;
+/*  float: left;*/
   margin-left: 20px;
 }
 
