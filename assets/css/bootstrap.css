@@ -337,6 +337,7 @@ a:focus {
 
 img {
   vertical-align: middle;
+  padding-left:120px;
 }
 
 .img-responsive {
