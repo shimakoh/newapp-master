@@ -4,9 +4,9 @@
 }
 
 
-.container > img{
+/*.container > img{
   max-width: 50%;
-}
+}*/
 
 body {
   font-size: 16px;
@@ -122,7 +122,8 @@ footer p {
   padding-bottom:8px;
 }
 
-
+/*
 .container > img{
   max-width: 50%;
 }
+*/
