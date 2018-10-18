@@ -5,9 +5,7 @@
 
 
 img{
-  padding-left: 120px;
-position: static;
-left: 120px;
+  max-width: 50%;
 }
 
 body {
@@ -126,5 +124,5 @@ footer p {
 
 
 img{
-  padding-left: 120px;
+  max-width: 50%;
 }
