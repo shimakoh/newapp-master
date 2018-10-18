@@ -20,6 +20,10 @@ header{
   background-color: rgba(65, 105, 255, 0.8);
 }
 
+img{
+  position: center;
+}
+
 /*.header_left{
   float: left;
   margin-left: 20px;
@@ -63,6 +67,8 @@ li:active {
 
 .title{
   color: white;
+  width: 100%;
+  position: fixed;
   font-size: 20px;
   line-height: 50px;
   float: left;
